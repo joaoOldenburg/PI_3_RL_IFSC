@@ -202,9 +202,29 @@ Para acelerar o tempo de treinamento é possível copiar o envoriment, fazendo m
 O pacote tensorflow que é instalado automaticamente pelo ML agents disponibiliza uma dashboard completa para verificação do treinamento, que pode ser acessada abrindo o CMD, conforme explicado em tópicos acima, rode comando 'tensorboard --logdir=summaries'. É importante que seja aberto após alguns minutos de treinamento, ou quando o high score do agente já estiver alto, quando rodar o comando aparecerá um link, esse deverá ser colado em qualquer navegador, assim será acessada a dahsboard. Conforme a figura abaixo. Após o treinamento rodar por pelo menos 10 minutos, ou um high score de pelo menos 300, o treinamento pode ser parado clicando no botão de pause do Unity, assim será garantido uma rede reasoávlel para o próximo passo.
 
 <div align="center">
-<img src=")https://github.com/joaoOldenburg/PI_3_RL_IFSC/assets/111868475/95e51609-ffb6-4aae-a6e2-6ecd7a55b9a1" width="700px" />
+<img src="https://github.com/joaoOldenburg/PI_3_RL_IFSC/assets/111868475/95e51609-ffb6-4aae-a6e2-6ecd7a55b9a1" width="700px" />
 </div>
 
 ### Adicionando uma rede já treinada ao agente
+
+Após o treinamento uma pasta chamada models é criada, dentro da pasta terão os treinamentos rodados separados por outras pastas com o nome que foi definido no passo anterior, basta arrastar a pasta para dentro do Unity na pasta Assets, figura abaixo. 
+
+<div align="center">
+<img src="https://github.com/joaoOldenburg/PI_3_RL_IFSC/assets/111868475/c7c8db1d-0925-402f-b65a-e33b91308262)" width="700px" />
+</div>
+
+Abrindo a pasta arrastada ao Unity a rede treinada estará presente, ela poderá ser adicionada dentro do componente Behavior Parameters, no campo Model, figura abaixo, o campo Behavior Type deverá ser alterado para Inference. Apertando play apenas no Unity é possível assistir a rede treinada em funcionamento.
+
+<div align="center">
+<img src="https://github.com/joaoOldenburg/PI_3_RL_IFSC/assets/111868475/72adc9f5-021c-4f43-87eb-8731c505cfb5" width="700px" />
+</div>
+
+### Possível erro encontrado
+Durante o processo de aprendizado, alguns outros erros foram encontrados, porém todos estavam ligados a compatibilidade entre versões de pacotes usados, exceto o erro citado na sequência, devido a isso a solução de encontra abaixo.
+O erro not have Longh Path Support Enabled que pode ocorrer na instalação dos pacotes Python. Para solucionar basta seguir os seguintes comandos, abra o Editor de Registro do Windows, é possível fazer isso pressionando Win + R, digitando “regedit” e pressionando Enter. Navegue até a seguinte chave do registro: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem Procure uma entrada chamada “LongPathsEnabled”. Se ela não existir, você pode criá-la. Clique com o botão direito no painel direito, selecione “Novo” e depois escolha “Valor DWORD (32 bits)”. Nomeie o novo valor DWORD como “LongPathsEnabled”. Clique duas vezes em “LongPathsEnabled” e defina seu valor como 1. Feche o Editor de Registro.
+<div align="center">
+<img src="https://github.com/joaoOldenburg/PI_3_RL_IFSC/assets/111868475/d2f89bba-eb68-4c11-a113-cf43f66f63d2" width="600px" />
+</div>
+
 
 
