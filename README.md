@@ -29,15 +29,15 @@ Comportamento: Um Comportamento é um conjunto de atributos do agente, como o n�
 
 ## Tutorial
 
-Primeiro, é importante saber que existe toda uma documentação específica para o ML agents, e pode ser acessado pelo link COLOCAR LINK. Porém ela é muito técnica, e leva em consideração que quem tem contato com ela já possui conhecimento de Python, Unity, computação e git. Logo, é indicado que siga o tutorial aqui citado, como forma de poder visualizar os resultados e o que está sendo lido e entendido, e também servir de inspiração após ver o primeiro projeto pronto. No entanto, após isso, é necessária a leitura da documentação, bem como aplicação dos tutoriais disponibilizados pela própria unity.
+Primeiro, é importante saber que existe toda uma documentação específica para o ML agents, e pode ser acessado pelo [Documentação Unity](https://unity.com/pt/products/machine-learning-agents). Porém ela é muito técnica, e leva em consideração que quem tem contato com ela já possui conhecimento de Python, Unity, computação e git. Logo, é indicado que siga o tutorial aqui citado, como forma de poder visualizar os resultados e o que está sendo lido e entendido, e também servir de inspiração após ver o primeiro projeto pronto. No entanto, após isso, é necessária a leitura da documentação, bem como aplicação dos tutoriais disponibilizados pela própria unity.
 
 #### Instalando Python e Unity
-A primeira ação a se tomar é baixar o Unity, o tutorial de como baixar o Unity do canal Crie seus jogos pode ser utilizado, através do link - https://www.youtube.com/watch?v=wHzu5Cf9ig4&ab_channel=CrieSeusJogos.
+A primeira ação a se tomar é baixar o Unity, o tutorial de [como baixar o Unity](https://www.youtube.com/watch?v=wHzu5Cf9ig4&ab_channel=CrieSeusJogos) do canal Crie seus jogos pode ser utilizado.
 
-Para baixar o Python, o turial do canal Código logo pode ser usado, porém nesse tutorial é requerido o python 3.7.9 - https://www.youtube.com/watch?v=0pG4NrucQR4&ab_channel=C%C3%B3digoLogo.
+Para baixar o Python, o turial do canal Código logo pode ser usado, porém nesse tutorial é requerido o [python 3.7.9](https://www.youtube.com/watch?v=0pG4NrucQR4&ab_channel=C%C3%B3digoLogo).
 
 #### Baixando projeto inicial no github
-Basta rolar para cima e seguir o caminho da figuraabaixo, após isso extraia os arquivos.  O ambiente foi produzido por Sebastian Schuchmann e seu uso foi autorizado, bem como o tutorial em português foi autorizado.
+Basta rolar para cima e seguir o caminho da figura abaixo, após isso extraia os arquivos.  O ambiente foi produzido por Sebastian Schuchmann e seu uso foi autorizado, bem como o tutorial em português foi autorizado.
 <div align="center">
 <img src="https://github.com/joaoOldenburg/PI_3_RL_IFSC/assets/111868475/242f7755-4398-42ac-ac07-5c79f6c442b8" width="300px" />
 </div>
