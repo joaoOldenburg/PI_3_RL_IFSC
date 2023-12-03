@@ -153,7 +153,7 @@ private void FixedUpdate()
 }
 ```
 
-Agora, se faz necessário adicionar recompensas para o aprendizado do agente, a recompensa negativa deve ser adicionada caso o agente colida em outros carros, e o episódio também deve terminar com isso, dessa forma o método Oncollissionenter deve ser modificado. Para as recompensas positivas, indicando o comportamento a ser seguido, devem ser adicionadas a um gatilho, este ocorre sempre que um carro passa pelo agente sem colisão, com isso o método Ontriggerenter deve ser modificado. O Script final pode ser baixado, também o projeto finalizadoh(ttps://github.com/Sebastian-Schuchmann/A.I.-Jumping-Cars-ML-Agents-Example/tree/TutorialCompleted), é importante atentar ao script finalizado para encontrar possíveis erros
+Agora, se faz necessário adicionar recompensas para o aprendizado do agente, a recompensa negativa deve ser adicionada caso o agente colida em outros carros, e o episódio também deve terminar com isso, dessa forma o método Oncollissionenter deve ser modificado. Para as recompensas positivas, indicando o comportamento a ser seguido, devem ser adicionadas a um gatilho, este ocorre sempre que um carro passa pelo agente sem colisão, com isso o método Ontriggerenter deve ser modificado. O [Script final pode ser baixado](https://github.com/Sebastian-Schuchmann/A.I.-Jumping-Cars-ML-Agents-Example/tree/TutorialCompleted), também o projeto finalizado, é importante atentar ao script finalizado para encontrar possíveis erros
 
 ```csharp
 private void OnCollisionEnter(Collision collidedObj)
